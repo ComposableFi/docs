@@ -3,7 +3,7 @@ title: Picasso – The Cross-Ecosystem IBC & Restaking Hub
 hide_table_of_contents: true
 slug: /
 ---
-
+Everything you can imagine is real!
 <div class="container">
   <div class="row">
     <div class="col col--4">
