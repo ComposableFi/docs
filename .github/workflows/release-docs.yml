@@ -61,7 +61,7 @@ jobs:
         uses: "./.github/templates/watch-exec"
         with:
           command: nix -- build .#docs-static
-          working-directory: ./docs
+          working-directory: .
 
       - name: Deploy docs
         if: ${{ github.event_name == 'push' || (inputs.github_event_name == 'pull_request' && inputs.github_event_pull_request_head_repo_id == 383289760) }}
